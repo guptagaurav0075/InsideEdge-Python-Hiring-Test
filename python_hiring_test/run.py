@@ -30,7 +30,7 @@ def main():
                                               'Subject'], ascending=True)
 
     # Output to CSV
-    sorted_dataframes.to_csv('data/processed/output_out.csv', index=False)
+    sorted_dataframes.to_csv('data/processed/output.csv', index=False)
 
 
 
